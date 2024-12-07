@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to XIM</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100">
+    <nav class="bg-gray-50 shadow-sm w-full">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-20">
+          <div class="flex items-center">
+            <span class="text-base font-mono"
+              ><span class="font-bold tracking-wide text-2xl md:text-4xl"
+                >ACM</span
+              >
+              student chapter</span
+            >
+          </div>
+          <button
+            id="menu-btn"
+            class="md:hidden flex items-center text-gray-500 hover:text-gray-700"
+          >
+            <svg
+              class="h-6 w-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              ></path>
+            </svg>
+          </button>
+          <div class="hidden md:flex space-x-4">
+            <a href="#" class="hover:text-blue-600 px-3 py-2 rounded-md"
+              >Home</a
+            >
+            <a href="#about" class="hover:text-blue-600 px-3 py-2 rounded-md"
+              >About</a
+            >
+            <a href="#" class="hover:text-blue-600 px-3 py-2 rounded-md"
+              >Events</a
+            >
+            <a href="#" class="hover:text-blue-600 px-3 py-2 rounded-md"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Sidebar -->
+    <div
+      id="sidebar"
+      class="fixed top-0 right-0 h-full w-64 bg-gray-50 text-slate-900 transform translate-x-full transition-transform duration-300"
+    >
+      <div
+        class="flex justify-between items-center h-16 px-4 border-b border-gray-700"
+      >
+        <span class="text-lg font-bold">Menu</span>
+        <button id="close-btn" class="text-gray-400 hover:text-gray-500">
+          <svg
+            class="h-6 w-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"
+            ></path>
+          </svg>
+        </button>
+      </div>
+      <div class="px-1 text-4xl py-4 space-y-2">
+        <a
+          href="#"
+          class="block hover:bg-white hover:text-blue-600 px-6 py-2 rounded-lg"
+          >Home</a
+        >
+        <a
+          href="#about"
+          class="block hover:bg-white hover:text-blue-600 px-6 py-2 rounded-lg"
+          >About</a
+        >
+        <a
+          href="#"
+          class="block hover:bg-white hover:text-blue-600 px-6 py-2 rounded-lg"
+          >Events</a
+        >
+        <a
+          href="#"
+          class="block hover:bg-white hover:text-blue-600 px-6 py-2 rounded-lg"
+          >Contact</a
+        >
+      </div>
+    </div>
+
+
+    <!-- HERO SECTION -->
+
+    <div class="px-5 my-10 flex flex-col items-center h-fit">
+    <div class="leading-[15rem] ">
+      <!-- <p class="text-md sm:text-xl md:text-2xl ">XIM University</p> -->
+      <h1 class="text-9xl md:text-[12rem] lg:text-[18rem] text-center font-sans"> ACM </h1>
+      <p class="font-mono text-center text-xl mt-10">Association for Computing Machines</p>
+      <p class="font-mono text-center text-4xl mt-6 "> Student Chapter</p>
+    </div>
+      <p class="font-sans tracking-4 text-center my-8 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe harum qui ut necessitatibus dolores totam tenetur, natus sed quasi nulla.</p>
+      <button class="bg-slate-100 w-36 py-2 px-5 border-[0.5px] shadow-2xl rounded-md  transition-all duration-300 hover:bg-blue-50 hover:text-black hover:shadow-lg active:scale-95">Explore ⬇️</button>
+    </div>
+
+
+    <!-- ABOUT SECTION -->
+     <div class="text-4xl my-5 px-8 md:px-12 lg:px-32 py-24 w-full">
+      <div class="my-8 md:my-4">
+     <h1 class="mb-2" id="about">ABOUT US</h1>
+     <hr class="w-25 border-[2.5px] border-blue-500 w-32 rounded-xl">
+    </div>
+
+    <div class="flex flex-col-reverse md:flex-row justify-between gap-12 lg:gap-40">
+     <p class="text-base  ">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, alias. Recusandae quidem omnis, nihil numquam explicabo at porro ipsum sit temporibus iure quaerat eaque eum! Error nulla iure, minima ab adipisci vel impedit sed officia magnam provident, commodi blanditiis illo dolorem amet laborum ipsa? Sit recusandae impedit ea rem, cumque aperiam dolores aliquid? Id, illum voluptatibus laudantium quo quam vel dolorum quas explicabo perferendis temporibus impedit dignissimos autem deleniti unde aperiam vitae beatae, placeat mollitia iusto sed quaerat consequuntur? Dolor.
+     </p>
+     <div>
+      <img src="./assets/groupPhoto.JPG" alt="about" class="rounded-md px-8 py-4  md:scale-[1.5] scale-[1.25] ">
+     </div>
+    </div>
+    </div>
+
+    <!-- EVENTS SECTION -->
+
+    <!-- CONTACT US -->
+    <section class="bg-slate-50 ">
+      <div class="py-8 lg:py-12 px-4 mx-auto max-w-screen-md">
+          <h2 class="mb-4 text-4xl font-bold text-center text-gray-900 ">Contact Us</h2>
+          <p class="mb-8 lg:mb-12 font-light text-center text-gray-500  sm:text-xl">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</p>
+          <form action="#" class="space-y-8">
+              <div>
+                  <label for="email" class="block mb-2 text-sm font-medium text-gray-900 ">Your email</label>
+                  <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5  ark:focus:ring-primary-500 " placeholder="animesh@gmail.com" required>
+              </div>
+              <div>
+                  <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 ">Subject</label>
+                  <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 " placeholder="Let us know how we can help you" required>
+              </div>
+              <div class="sm:col-span-2">
+                  <label for="message" class="block mb-2 text-sm font-medium text-gray-900 ">Your message</label>
+                  <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 " placeholder="Leave a comment..."></textarea>
+              </div>
+              <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-blue-500 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 ">Send message</button>
+          </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <div>
+      <div class="flex flex-col px-12 md:px-24 sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm ">
+        <div>
+          <div>
+            <h1 class="text-[2.5rem]  font-mono ">
+              <span class="">Association for <br> Computing Machinery</span> <span class="text-blue-500 tracking-3 text-6xl -ml-5">.</span>
+            </h1>
+          </div>
+          <p class="w-full py-5 md:w-2/3 text-gray-600 text-sm">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, a
+            aliquid eos necessitatibus blanditiis dolorum cupiditate officiis
+            exercitationem ipsum eaque!
+          </p>
+        </div>
+  
+          <div>
+              <p class="text-xl font-medium my-5">CONTENT</p>
+              <ul class="flex flex-col gap-1 text-sm text-gray-600">
+                  <li>Home</li>
+                  <li>About Us</li>
+                  <li>Events</li>
+                  <li>Contact Us</li>
+  
+              </ul>
+          </div>
+  
+          <div>
+              <p class="text-xl font-medium my-5">GET IN TOUCH</p>
+              <ul class="flex flex-col gap-1 text-gray-600">
+                  <li>+91 9876543321</li>
+                  <li>xim-acm-chapter@gmail.com</li>
+  
+              </ul>
+          </div>
+  
+      </div>
+  
+          <hr />
+          <p class="py-5 text-base text-center ">
+          <span class="text-lg ">&#169; </span>
+          Copyright 2024@ ACM Student Chapter - All Rights Reserved
+          
+  
+          </p>
+  
+      </div>
+
+    <script>
+      const menuBtn = document.getElementById("menu-btn");
+      const closeBtn = document.getElementById("close-btn");
+      const sidebar = document.getElementById("sidebar");
+
+      menuBtn.addEventListener("click", () => {
+        sidebar.classList.remove("translate-x-full");
+      });
+
+      closeBtn.addEventListener("click", () => {
+        sidebar.classList.add("translate-x-full");
+      });
+
+    </script>
+  </body>
+</html>
